@@ -7,9 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 public class Tasks
 {
-    public static void Main()
-    {
-        /**
+      /**
         1.Could you briefly give 1 - 2 examples of test automation tasks that you've had to solve for the last ~6 months?
              * Automate new and existing test cases 
                   - I automated test cases according to the user story assigned to the sprint and the priority of each test, also if a new bug is reported, I write a new test case associate to the bug and automate it to improve the coverage of our tests
@@ -24,10 +22,8 @@ public class Tasks
              * Ran Performance testing
                   - before each release, I execute Stress testing to see that we dont have performance issues with the new features implemented in the system 
          **/
-
-
-
-
+    public static void Main()
+    {
         /** 
            Task 1: Logger
             Context: Your team is working on a project where you need to log various events and errors.
@@ -40,6 +36,8 @@ public class Tasks
             [2023-04-24 12:34:56] [INFO] User logged in
             [2023-04-24 12:35:10] [WARNING] Failed login attempt 
         **/
+
+        
         // method LogMessage
         Logger.LogMessage("application.log", "User logged in", "INFO");
         Logger.LogMessage("application.log", "Failed login attempt", "WARNING");
@@ -55,6 +53,7 @@ public class Tasks
             TC5 Verify log method return an error message with invalid values
         **/
 
+        
         /**
          Task 2: Inventory Management
            Context: You are developing a simple inventory management system for a small store.
